@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="thrift-api" />
+        <module name="thrift-client" />
+        <module name="thrift-common" />
+        <module name="thrift-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot-thrift-zookeeper" target="1.8" />
+      <module name="thrift-api" target="1.8" />
+      <module name="thrift-client" target="1.8" />
+      <module name="thrift-common" target="1.8" />
+      <module name="thrift-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
